@@ -11,7 +11,7 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"pocketbase": ".\\pb\\pocketbase.exe serve",
-		"typegen": "npx pocketbase-typegen --db pb\\pb_data\\data.db"
+		"typegen": "npx pocketbase-typegen --db pb\\pb_data\\data.db --out src/types/pocketbase-types.ts"
 	},
 	"devDependencies": {
 		"@lucide/svelte": "^0.546.0",

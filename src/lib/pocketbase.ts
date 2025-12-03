@@ -1,5 +1,5 @@
 import PocketBase from 'pocketbase';
-import type { TypedPocketBase } from '../../pocketbase-types';
+import type { TypedPocketBase } from '$types/pocketbase-types';
 
 // Get PocketBase URL from environment variable or use default
 // Set PUBLIC_POCKETBASE_URL in your .env file for production/deployment
